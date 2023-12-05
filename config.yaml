@@ -1,0 +1,25 @@
+I: '0'
+L: '16'
+S: '1'
+clip: '0'
+fusion_blocks: midup
+guidance_scale: '7.5'
+inference_config: configs/inference/inference.yaml
+invert_video: 'false'
+max_length: 'null'
+motion_module: pretrained_models/MagicAnimate/temporal_attention/temporal_attention.ckpt
+offset: '0'
+pretrained_appearance_encoder_path: pretrained_models/MagicAnimate/appearance_encoder
+pretrained_controlnet_path: pretrained_models/MagicAnimate/densepose_controlnet
+pretrained_model_path: pretrained_models/stable-diffusion-v1-5
+pretrained_vae_path: pretrained_models/sd-vae-ft-mse
+save_individual_videos: 'false'
+savename: 'null'
+seed: '[1]'
+size: '512'
+source_image:
+- inputs/applications/source_image/demo4.png
+steps: '25'
+video_path:
+- inputs/applications/driving/densepose/demo4.mp4
+video_type: condition
