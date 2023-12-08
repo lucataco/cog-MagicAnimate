@@ -9,7 +9,7 @@ if not os.path.exists(MODEL_CACHE):
     os.makedirs(MODEL_CACHE)
 
 os.system("git lfs clone --branch fp16 https://huggingface.co/runwayml/stable-diffusion-v1-5/ pretrained_models/stable-diffusion-v1-5/")
-os.system("git lfs clone https://huggingface.co/stabilityai/sd-vae-ft-mse-original pretrained_models/sd-vae-ft-mse-original")
+os.system("git lfs clone https://huggingface.co/stabilityai/sd-vae-ft-mse pretrained_models/sd-vae-ft-mse")
 os.system("git lfs clone https://huggingface.co/zcxu-eric/MagicAnimate pretrained_models/MagicAnimate")
 
 os.system("git clone https://github.com/magic-research/magic-animate.git")
